@@ -7,4 +7,4 @@ router.get('/', (req, res, next) => {
 	res.json({ message: 'index' });
 });
 
-module.exports = router;
+export default router;
